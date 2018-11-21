@@ -1,15 +1,11 @@
 import React, { Component } from 'react';
+import Home from './components/Home'
 
 class App extends Component {
   render() {
     return (
       <div>
-        <div>
-          <h2>Hello world</h2>
-        </div>
-        <p>
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <Home />
       </div>
     );
   }
