@@ -6,9 +6,10 @@ class Home extends PureComponent{
     select1:null
   }
   componentDidMount(){
-    const url =`https://raw.githubusercontent.com/Benman2005/frontend-dev-assignment/master/api/_search.get.json`
+    const url =`https://raw.githubusercontent.com/Benman2005/bijenkorf/noselect/api/_search.get.json`
     fetch(url, { method: 'GET' })
     .then(res => res.text())
+    // .then(res => console.log(res))
     .then(data => JSON.parse(data))
     .then(result => this.setState({truien: result.suggestions.map(trui=> `${trui.searchterm} ( ${trui.nrResults} )`)}))
   } 
