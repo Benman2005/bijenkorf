@@ -1,4 +1,14 @@
-## de Bijenkorf Frontend Dev assignment
+### Instructions
+
+I did not make this work as much as i'd like.
+
+* yarn install
+* yarn start
+* there's two branches with three different searching input fields:
+  * <noselect> branch which uses an imported react-select component
+  * <cleaner> branch which does it with vanilla javascript and has two solutions, the latter perhaps a bit mre graceful.
+
+### de Bijenkorf Frontend Dev assignment
 
 This project allows de Bijenkorf to asses potential frontend candidates with real, working code.
 
@@ -6,7 +16,7 @@ It is bootstrapped with [Create React App](https://github.com/facebookincubator/
 
 If you are not familiar with Create React App you can find an up to date guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
-## Folder Structure
+### Folder Structure
 
 The initial project structure looks like this:
 
