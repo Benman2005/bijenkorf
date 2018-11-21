@@ -12,7 +12,7 @@ class Home extends PureComponent{
     this.setState({
       query: this.search.value,
     })
-     const url =`https://raw.githubusercontent.com/Benman2005/frontend-dev-assignment/master/api/_search.get.json`
+     const url =`https://raw.githubusercontent.com/Benman2005/bijenkorf/noselect/api/_search.get.json`
      fetch(url, { method: 'GET' })
      .then(res => res.text())
      .then(data => JSON.parse(data))
@@ -23,7 +23,7 @@ class Home extends PureComponent{
   }
   componentDidMount(){
     // const url =`http://localhost:3000/search\?q\=${this.state.query}`
-    const url =`https://raw.githubusercontent.com/Benman2005/frontend-dev-assignment/master/api/_search.get.json`
+    const url =`https://raw.githubusercontent.com/Benman2005/bijenkorf/noselect/api/_search.get.json`
     // const url =`../../api/_search.get.json` 
     fetch(url, { method: 'GET' })
     .then(res => res.text())
