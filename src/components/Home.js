@@ -2,6 +2,9 @@ import React, {PureComponent} from 'react'
 import Select from 'react-select'
 
 class Home extends PureComponent{
+  state = {
+    select1:null
+  }
   componentDidMount(){
     const url =`https://raw.githubusercontent.com/Benman2005/frontend-dev-assignment/master/api/_search.get.json`
     fetch(url, { method: 'GET' })
