@@ -5,8 +5,8 @@ I did not make this work as much as i'd like.
 * yarn install
 * yarn start
 * there's two branches with three different searching input fields:
-  * <noselect> branch which uses an imported react-select component
-  * <cleaner> branch which does it with vanilla javascript and has two solutions, the latter perhaps a bit mre graceful.
+  * __noselect__ branch which uses an imported react-select component
+  * __cleaner__ branch which does it with vanilla javascript and has two solutions, the latter perhaps a bit mre graceful.
 
 ### de Bijenkorf Frontend Dev assignment
 
